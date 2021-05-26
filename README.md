@@ -20,9 +20,9 @@ JavaScript package for Webmail Authentication for NIT-T
     Returns:
     true/false that indicates if the credentials are right or wrong, if useWebmailDirectly is set to true
     (OR)
-    The resposne of the external endpoint, if useWebmailDirectly is set to false and PublicUrl is provided
+    The response of the external endpoint, if useWebmailDirectly is set to false and PublicUrl is provided
     */
-    
+
     const authenticator = new Authenticator({ useWebmailDirectly: true });
     const response = await authenticator.login({
         username: "<>", // rollno/username, wihtout @nitt.edu
@@ -32,4 +32,6 @@ JavaScript package for Webmail Authentication for NIT-T
 console.log(response);
 })();
 ```
+
+Note: ES6 module. Make sure you have the   `"type" : "module"` in your package.json
 
