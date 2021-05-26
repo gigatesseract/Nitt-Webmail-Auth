@@ -1,0 +1,36 @@
+{
+  "name": "nitt-webmail-auth",
+  "version": "1.0.0",
+  "description": "JavaScript package for webmail authentication in NIT-T",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigatesseract/Nitt-Webmail-Auth.git"
+  },
+  "keywords": [
+    "Webmail",
+    "Auth",
+    "Spider"
+  ],
+  "author": "gigatesseract",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gigatesseract/Nitt-Webmail-Auth/issues"
+  },
+  "homepage": "https://github.com/gigatesseract/Nitt-Webmail-Auth#readme",
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "imap-simple": "^5.0.0",
+    "is-reachable": "^5.0.0",
+    "npm": "^7.14.0",
+    "valid-url": "^1.0.9"
+  }
+}
